@@ -18,5 +18,12 @@ promise.then(res => console.log(res));
 async function hello(){
   return "Hello Async";
 }
-
 hello().then(console.log);
+
+//fetchapi.js
+async function getData(){
+  let res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  let data = await res.json();
+  console.log(data);
+}
+getData();
