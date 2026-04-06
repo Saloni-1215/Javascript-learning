@@ -1,0 +1,34 @@
+// Variables in JavaScript
+
+let name = "Saloni";   // can change
+const age = 20;        // cannot change
+
+console.log(name, age);
+
+// Data Types
+
+let str = "Hello";        // String
+let num = 10;             // Number
+let isTrue = true;        // Boolean
+let arr = [1, 2, 3];      // Array
+let obj = {name: "A"};    // Object
+
+console.log(str, num, isTrue, arr, obj);
+
+// If-Else Example
+
+let age = 18;
+
+if(age >= 18){
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+
+// Functions
+
+function add(a, b){
+  return a + b;
+}
+
+console.log(add(2, 3));
